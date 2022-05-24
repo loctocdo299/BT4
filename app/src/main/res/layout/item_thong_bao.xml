@@ -9,10 +9,14 @@
 
 
     <ImageButton
+        android:background="@drawable/khunghinh"
         android:id="@+id/hinhanhthongbao"
-        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="390dp"
         android:layout_height="200dp"
         app:srcCompat="@drawable/img"
+
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -30,6 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         android:textSize="18dp"
         android:text="Solar Boat Challege 2022 - Khơi dậy niềm đam mê khoa học kỹ thuật" />
 

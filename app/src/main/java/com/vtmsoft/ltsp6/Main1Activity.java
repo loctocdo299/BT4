@@ -20,9 +20,9 @@ public class Main1Activity extends AppCompatActivity {
         ArrayList<ThongBao> thongbaoss =new ArrayList<>();
         ThongBao thongbao1 = new ThongBao(R.drawable.img,"23/05/2022","Solar Boat Challege 2022 - Khơi dậy niềm đam mê khoa học kỹ thuật");
         thongbaoss.add(thongbao1);
-        ThongBao thongbao2 = new ThongBao(R.drawable.img,"23/05/2022","Solar Boat Challege 2022 - Khơi dậy niềm đam mê khoa học kỹ thuật");
+        ThongBao thongbao2 = new ThongBao(R.drawable.img2,"29-04-2022","Nhiều cơ hội việc làm dành cho sinh viên tốt nghiệp Trường Cao đẳng Kỹ thuật Cao Thắng");
         thongbaoss.add(thongbao2);
-        ThongBao thongbao3 = new ThongBao(R.drawable.img,"23/05/2022","Solar Boat Challege 2022 - Khơi dậy niềm đam mê khoa học kỹ thuật");
+        ThongBao thongbao3 = new ThongBao(R.drawable.img3,"20-04-2022","Hội thảo “Học Tiếng Nhật – Cơ hội làm việc tại các doanh nghiệp Nhật Bản”");
         thongbaoss.add(thongbao3);
         AdapterThongBao adapterThongBao=new AdapterThongBao(Main1Activity.this,R.layout.item_thong_bao,thongbaoss);
         listthongbao.setAdapter(adapterThongBao);
